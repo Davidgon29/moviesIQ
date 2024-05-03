@@ -28,14 +28,14 @@ const MovieCard: React.FC <IMovieCard> = ({
     const navigate = useNavigate();
     // state
 
-    const navigateMovies = (id: number, movieName: string) => {
-        navigate(`${ROUTES.SHOW}${id}`, {state: {movieName}}); // /show/82
+    const navigateMovies = (id: number, movie: string) => {
+        navigate(`${ROUTES.SHOW}${id}`, {state: {movie}}); // /show/82
     }
 
 
     return(
         <div className="relative float-start m-3 bg-black rounded-xl overflow-hidden w-64" onClick={()=> {
-            navigateMovies(movieId,title);}}>
+            navigateMovies(movieId, title);}}>
             <img src={poster} alt="poster" className="rounded-xl hover:opacity-50 object-contain hover:border-4 hover:border-orange-700"/>
             <div className="text-white absolute bottom-4 left ml-2">
                 <div className="w-48">

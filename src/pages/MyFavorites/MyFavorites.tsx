@@ -1,6 +1,6 @@
-import React, {useEffect} from "react";
+import React, {useCallback, useEffect} from "react";
 import { IMovieDetail } from "./types";
-import {MovieCard} from "../../components/MovieCard";
+import MovieCard from "../../components/MovieCard/MovieCard";
 import {getDetails} from "../../services/movies/getDetails";
 
 const MyFavorites = () => {
@@ -8,7 +8,7 @@ const MyFavorites = () => {
     const [shows, setShows] = React.useState<IMovieDetail[]>([]);
     const favorites : string = localStorage.getItem("favorites") || "";
 
-    const runGetFavorites = async () => {
+    const runGetFavorites = useCallback( async () => {
         if(favorites.length){
             const favoritesArray = JSON.parse(favorites);
             const newShows = await Promise.all(favoritesArray.map(async (favorite: string) => {
@@ -16,17 +16,18 @@ const MyFavorites = () => {
                     if(res && res.data){
                         return res.data;
                     }
-            }).catch((err) => {
-                console.log(err);
-            });
-        }));
-        setShows(newShows);
-        setLoading(false);
-    }};
+                }).catch((err) => {
+                    console.log(err);
+                });
+            }));
+            setShows(newShows);
+            setLoading(false);
+        }},[favorites]);
 
     useEffect(() => {
+        setLoading(true);
         runGetFavorites();
-    }, []);
+    }, [runGetFavorites]);
 
     return (
         <div className="flex justify-center">
@@ -34,12 +35,12 @@ const MyFavorites = () => {
                 <div>
                     <div>Favoritos</div>
                     {favorites && favorites.length > 0 ? (
-                        <div className="h-96">
+                        <div>
                             {shows && shows.map((show: IMovieDetail) => (
                                 <MovieCard
                                     key={show.id}
                                     title={show.title}
-                                    genreId={124}
+                                    genreId={show.genres[0].id}
                                     movieId={show.id}
                                     voteAverage={show.vote_average}
                                     posterPath={show.poster_path}

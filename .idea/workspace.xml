@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="53fcba75-1a88-4ecb-a694-96256bc66f86" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/components/MovieCard/MovieCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MovieCard/MovieCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/MyFavorites/MyFavorites.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MyFavorites/MyFavorites.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Show/Show.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Show/Show.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/movies/getDetails.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/movies/getDetails.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/movies/getPopularMovies.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/movies/getPopularMovies.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/movies/getTopRated.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/movies/getTopRated.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/MoviesIQ" source="main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Davidgon29&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Davidgon29/moviesIQ.git&quot;,
+    &quot;accountId&quot;: &quot;1ae57316-ea89-499a-b86d-da3ecf215770&quot;
+  }
+}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2eqBaAsucLYr6qOUPDicP1fAErg" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.3.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.intellij.reactbuddy.reactComponents" value="false" />
+        <entry key="com.intellij.reactbuddy.reactInspector" value="false" />
+        <entry key="com.intellij.reactbuddy.storybook" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\david\OneDrive\Documentos\AA Tec de Monterrey\Sexto Semestre\Desarrollo e implementacion de Software\Frontend\React\moviesiq\src" />
+      <recent name="C:\Users\david\OneDrive\Documentos\AA Tec de Monterrey\Sexto Semestre\Desarrollo e implementacion de Software\Frontend\React\moviesiq\src\components\Header" />
+      <recent name="C:\Users\david\OneDrive\Documentos\AA Tec de Monterrey\Sexto Semestre\Desarrollo e implementacion de Software\Frontend\React\moviesiq\src\constants" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="moviesiq" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="moviesiq" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="53fcba75-1a88-4ecb-a694-96256bc66f86" name="Changes" comment="" />
+      <created>1712622288336</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712622288336</updated>
+      <workItem from="1712622289795" duration="1659000" />
+      <workItem from="1712623971373" duration="3156000" />
+      <workItem from="1712627143371" duration="225000" />
+      <workItem from="1712627378172" duration="13000" />
+      <workItem from="1712628836861" duration="13000" />
+      <workItem from="1712873424690" duration="3390000" />
+      <workItem from="1712877035225" duration="10061000" />
+      <workItem from="1712887173700" duration="288000" />
+      <workItem from="1712887563757" duration="1339000" />
+      <workItem from="1713215363396" duration="168000" />
+      <workItem from="1713219407469" duration="2400000" />
+      <workItem from="1713222304079" duration="855000" />
+      <workItem from="1713223199944" duration="15238000" />
+      <workItem from="1713243213648" duration="1318000" />
+      <workItem from="1713248662226" duration="599000" />
+      <workItem from="1713487776254" duration="257000" />
+      <workItem from="1713831788458" duration="5120000" />
+      <workItem from="1713844817798" duration="31000" />
+      <workItem from="1714017664235" duration="156000" />
+      <workItem from="1714071422057" duration="31000" />
+      <workItem from="1714576219593" duration="229000" />
+      <workItem from="1714588862425" duration="2285000" />
+      <workItem from="1714680595476" duration="1248000" />
+      <workItem from="1714695340094" duration="5146000" />
+      <workItem from="1714700555607" duration="4891000" />
+      <workItem from="1714705519817" duration="107000" />
+      <workItem from="1714705633728" duration="88000" />
+      <workItem from="1714705734654" duration="108000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
