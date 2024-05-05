@@ -5,7 +5,7 @@ const Pill: React.FC <IPill> = ({
     color
     }) => {
     return (
-        <div className="my-2 flex h-auto justify-center rounded-xl" style={{backgroundColor: color}}>
+        <div className="my-2 flex h-auto p-2 text-white justify-center rounded-xl" style={{backgroundColor: color}}>
             {title}
         </div>
     )

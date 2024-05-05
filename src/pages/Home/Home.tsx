@@ -161,20 +161,22 @@ const Home = () => {
                 </div>
             </div>
             <div className="flex overflow-x-scroll no-scrollbar pb-5">
-                <div className="flex flex-nowrap">
+                <div>
                     {!loading ? (
-                        <div>
+                        <div className="flex flex-nowrap">
                             {favorites && favorites.length > 0 ? (
-                                <div>
+                                <div className="flex flex-nowrap">
                                     {shows && shows.map((show: IMovieDetail) => (
-                                        <MovieCard
-                                            key={show.id}
-                                            title={show.title}
-                                            genreId={show.genres[0].id}
-                                            movieId={show.id}
-                                            voteAverage={show.vote_average}
-                                            posterPath={show.poster_path}
-                                        />
+                                        <div className="inline-block px-0.5">
+                                            <MovieCard
+                                                key={show.id}
+                                                title={show.title}
+                                                genreId={show.genres[0].id}
+                                                movieId={show.id}
+                                                voteAverage={show.vote_average}
+                                                posterPath={show.poster_path}
+                                            />
+                                        </div>
                                     ))}
                                 </div>
                             ) : (
