@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53fcba75-1a88-4ecb-a694-96256bc66f86" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/Show/types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/movies/getRecommended.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pill/Pill.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pill/Pill.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Show/Show.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Show/Show.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/PrivateRouter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/PrivateRouter.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +169,7 @@
       <workItem from="1714854844228" duration="1701000" />
       <workItem from="1714856581912" duration="1963000" />
       <workItem from="1714858635903" duration="1088000" />
-      <workItem from="1714926674661" duration="9723000" />
+      <workItem from="1714926674661" duration="10834000" />
     </task>
     <servers />
   </component>

@@ -67,7 +67,6 @@ const Home = () => {
         }},[favorites]);
 
     useEffect(() => {
-        setLoading(true);
         runGetFavorites();
     }, [runGetFavorites]);
 
@@ -180,7 +179,7 @@ const Home = () => {
                                     ))}
                                 </div>
                             ) : (
-                                <div>No hay favoritos</div>
+                                <div className="ml-5">No hay favoritos</div>
                             )}
                         </div>
                     ):(
